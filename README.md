@@ -13,8 +13,8 @@ There are also two type of test:
 - Unit testing for each class
 - Integration to check how the three classes work together
 
-Finally, I would set up a layered architecture for the backend following this structure:
-src
+Finally, I would set up a layered architecture for the backend following this structure:  
+   src
 │ app.js # App entry point  
 └───api # Express route controllers for all the endpoints of the app  
 └───config # Environment variables and configuration related stuff  
