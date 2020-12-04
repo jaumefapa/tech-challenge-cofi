@@ -1,4 +1,4 @@
-### tech-challenge-cofi
+### Tech challenge Cofi
 
 There have been 3 classes created:
 
@@ -15,17 +15,17 @@ There are also two type of test:
 
 Finally, I would set up a layered architecture for the backend following this structure:
 src
-│ app.js # App entry point
-└───api # Express route controllers for all the endpoints of the app
-└───config # Environment variables and configuration related stuff
-└───models # Database models
-└───services # All the business logic is here
-└───types # Type declaration files (d.ts) for Typescript
+│ app.js # App entry point  
+└───api # Express route controllers for all the endpoints of the app  
+└───config # Environment variables and configuration related stuff  
+└───models # Database models  
+└───services # All the business logic is here  
+└───types # Type declaration files (d.ts) for Typescript  
 
-NOTE1: there's no products.json or any sort of database.
+NOTE1: there's no products.json or any sort of database.  
 NOTE2: I have not worked with Git commits despite I usually do it :)
 
-### Run test
+### Run tests
 
 Aftern running 'npm install' in the root folder, you can run the script
 
